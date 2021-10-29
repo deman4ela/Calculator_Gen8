@@ -1,4 +1,4 @@
-class Calculate {
+export class Calculate {
 
     protected _result: number
     
