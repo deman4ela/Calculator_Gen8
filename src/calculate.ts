@@ -9,4 +9,12 @@ export class Calculate {
     get result(){
       return this._result
     }
+
+    public plus(numberFirst: number, numberSecond: number): void{
+      this._result = numberFirst + numberSecond
+    }
+  
+    public minus(numberFirst: number, numberSecond: number): void{
+      this._result = numberFirst - numberSecond
+    }
 }
