@@ -17,4 +17,11 @@ export class Calculate {
     public minus(numberFirst: number, numberSecond: number): void{
       this._result = numberFirst - numberSecond
     }
+    public multiply(numberFirst: number, numberSecond: number): void{
+        this._result = numberFirst * numberSecond
+      }
+    
+      public divide(numberFirst: number, numberSecond: number): void{
+        this._result = numberFirst / numberSecond
+      }
 }
